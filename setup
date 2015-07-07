@@ -1,6 +1,6 @@
 #!/usr/bin/bash -e
 
-# Automate Bugzilla setup on Fedora 22
+# Automate MediaWiki setup on Fedora 22
 
 # Author: Christopher Markieta
 
