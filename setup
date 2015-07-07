@@ -1,0 +1,14 @@
+#!/usr/bin/bash -e
+
+# Automate Bugzilla setup on Fedora 22
+
+# Author: Christopher Markieta
+
+MY_DIR=$(dirname $0)
+
+if [ $(id -u) -ne 0 ]; then
+    echo "Permission denied"
+    echo "Root privileges are required for running $0."
+    exit 1
+fi
+
